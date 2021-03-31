@@ -44,3 +44,8 @@
 <summary style="max-width:150px">PERCENTILE</summary>
 <p style="background-color: #34a1eb; color:#141414">A percentile is a term used in statistics to express how a score compares to other scores in the same set. While there is technically no standard definition of percentile, it's typically communicated as the percentage of values that fall below a particular value in a set of data scores.</p>
 </details>
+
+<details>
+<summary style="max-width:150px">IQR</summary>
+<p style="background-color: #34a1eb; color:#141414">The IQR describes the middle 50% of values when ordered from lowest to highest. To find the interquartile range (IQR), ​first find the median (middle value) of the lower and upper half of the data. These values are quartile 1 (Q1) and quartile 3 (Q3). The IQR is the difference between Q3 and Q1.  </p>
+<details>
