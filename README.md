@@ -48,4 +48,34 @@
 <details>
 <summary style="max-width:150px">IQR</summary>
 <p style="background-color: #34a1eb; color:#141414">The IQR describes the middle 50% of values when ordered from lowest to highest. To find the interquartile range (IQR), ​first find the median (middle value) of the lower and upper half of the data. These values are quartile 1 (Q1) and quartile 3 (Q3). The IQR is the difference between Q3 and Q1.  </p>
+</details>
+
 <details>
+<summary style="max-width:150px">Linear Regression</summary>
+<p style="background-color: #34a1eb; color:#141414">Linear regression is a linear model, e.g. a model that assumes a linear relationship between the input variables (x) and the single output variable (y). More specifically, that y can be calculated from a linear combination of the input variables (x)</p>
+<ul>
+<details>
+<summary>Simple Linear Regression</summary>
+Simple linear regression lives up to its name: it is a very straightforward approach for predicting a quantitative response Y on the basis of a single predictor variable X. It assumes that there is approximately a linear
+relationship between X and Y . Mathematically, we can write this linear
+relationship as
+
+>Y ≈ β0 + β1X.
+
+β0 and β1 are two unknown constants that represent
+the intercept and slope terms in the linear model. Together, β0 and β1 are known as the model coefficients or parameters. Once we have used our training data to produce estimates βˆ0 and βˆ1 for the model coefficients, we
+can predict future sales on the basis of a particular value of TV advertising
+by computing
+
+
+><math> yˆ = β<sup>ˆ</sup><sub>0</sub> + β<sup>ˆ</sup><sub>1</sub>x</math>
+
+The core idea is to obtain a line that best fits the data. The best fit line is the one for which total prediction error (all data points) are as small as possible. Error is the distance between the point to the regression line.
+</details>
+<details>
+<summary style="max-width:250px">Multiple Linear Regression</summary>
+
+</details>
+</ul>
+</details>
+
